@@ -11,7 +11,8 @@ curl "${API}${URL_PATH}" \
   --data '{
     "joke": {
       "text": "'"${TEXT}"'",
-      "title": "'"${TITLE}"'"
+      "title": "'"${TITLE}"'",
+      "owner": "'"${OWNER}"'"
     }
   }'
 
