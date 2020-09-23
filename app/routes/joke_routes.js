@@ -58,7 +58,6 @@ router.get('/jokes/:id', requireToken, (req, res, next) => {
 // CREATE
 // POST /examples
 router.post('/jokes', requireToken, (req, res, next) => {
-  console.log('Res is', req.body)
   // set owner of new example to be current user
   req.body.joke.owner = req.user.id
   Joke.create(req.body.joke)
