@@ -24,4 +24,4 @@ user should be able to edit their own joke
 user should be able to delete their own joke
 
 Wireframes and ERD Project 2:
-[wireframes link]https://imgur.com/a/8TTV7dc
+[wireframes link] (https://imgur.com/a/8TTV7dc)
